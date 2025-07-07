@@ -1,0 +1,3089 @@
+2025-07-07 23:24 - INFO - Extracting data
+2025-07-07 23:24 - DEBUG - Starting new HTTPS connection (1): newsapi.org:443
+2025-07-07 23:24 - DEBUG - https://newsapi.org:443 "GET /v2/top-headlines?category=technology&from=2025-07-07&apiKey=690063028bf94994b458f3b9aa2453b5&pageSize=10&page=1 HTTP/1.1" 200 None
+2025-07-07 23:24 - INFO - Extracted data successfully!!!
+2025-07-07 23:24 - INFO - Starting transforming data
+2025-07-07 23:24 - DEBUG - GatewayClient.address is deprecated and will be removed in version 1.0. Use GatewayParameters instead.
+2025-07-07 23:24 - DEBUG - Command to send: A
+080388046b0940deba14b562a502b8ff2cd82f739e13e2b7436786b3394d9ff3
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.Encoders
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.OnSuccessCall
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.functions
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.classic.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+SparkConf
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.SparkConf
+2025-07-07 23:24 - DEBUG - Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro0
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+set
+sspark.app.name
+sTransform_News_API
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro1
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybfalse
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro2
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybfalse
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro3
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.sql.artifact.isolation.enabled
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybfalse
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+set
+sspark.sql.artifact.isolation.enabled
+sfalse
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro4
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+get
+sspark.master
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yslocal[*]
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+get
+sspark.app.name
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysTransform_News_API
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+contains
+sspark.home
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybfalse
+2025-07-07 23:24 - DEBUG - Command to send: c
+o0
+getAll
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yto5
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i0
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro6
+2025-07-07 23:24 - DEBUG - Command to send: c
+o6
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.rdd.compress
+2025-07-07 23:24 - DEBUG - Command to send: c
+o6
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysTrue
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro7
+2025-07-07 23:24 - DEBUG - Command to send: c
+o7
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.app.submitTime
+2025-07-07 23:24 - DEBUG - Command to send: c
+o7
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys1751910852782
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro8
+2025-07-07 23:24 - DEBUG - Command to send: c
+o8
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.app.name
+2025-07-07 23:24 - DEBUG - Command to send: c
+o8
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysTransform_News_API
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i3
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro9
+2025-07-07 23:24 - DEBUG - Command to send: c
+o9
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.submit.pyFiles
+2025-07-07 23:24 - DEBUG - Command to send: c
+o9
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i4
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro10
+2025-07-07 23:24 - DEBUG - Command to send: c
+o10
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.sql.artifact.isolation.enabled
+2025-07-07 23:24 - DEBUG - Command to send: c
+o10
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysfalse
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro11
+2025-07-07 23:24 - DEBUG - Command to send: c
+o11
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.submit.deployMode
+2025-07-07 23:24 - DEBUG - Command to send: c
+o11
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysclient
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i6
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro12
+2025-07-07 23:24 - DEBUG - Command to send: c
+o12
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.serializer.objectStreamReset
+2025-07-07 23:24 - DEBUG - Command to send: c
+o12
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys100
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i7
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro13
+2025-07-07 23:24 - DEBUG - Command to send: c
+o13
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.master
+2025-07-07 23:24 - DEBUG - Command to send: c
+o13
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yslocal[*]
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: a
+g
+o5
+i8
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro14
+2025-07-07 23:24 - DEBUG - Command to send: c
+o14
+_1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysspark.ui.showConsoleProgress
+2025-07-07 23:24 - DEBUG - Command to send: c
+o14
+_2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ystrue
+2025-07-07 23:24 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi9
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+2025-07-07 23:24 - DEBUG - Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+2025-07-07 23:24 - DEBUG - Command to send: A
+080388046b0940deba14b562a502b8ff2cd82f739e13e2b7436786b3394d9ff3
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o1
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o2
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o3
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o4
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o5
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Answer received: !yro15
+2025-07-07 23:24 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro16
+2025-07-07 23:24 - DEBUG - Command to send: c
+o16
+conf
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro17
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+2025-07-07 23:24 - DEBUG - Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i59175
+s080388046b0940deba14b562a502b8ff2cd82f739e13e2b7436786b3394d9ff3
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro18
+2025-07-07 23:24 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro19
+2025-07-07 23:24 - DEBUG - Command to send: c
+o19
+register
+ro18
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro15
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybfalse
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro15
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yL15
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro15
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yi65536
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.SparkFiles
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys/tmp/spark-fa186eb7-cadb-4dcf-b63a-e5a7df8095df/userFiles-99f2e5f0-88fe-4718-9ab1-cfc41a260b70
+2025-07-07 23:24 - DEBUG - Command to send: c
+o17
+get
+sspark.submit.pyFiles
+s
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro20
+2025-07-07 23:24 - DEBUG - Command to send: c
+o20
+conf
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro21
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro21
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys/tmp/spark-fa186eb7-cadb-4dcf-b63a-e5a7df8095df
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+s/tmp/spark-fa186eb7-cadb-4dcf-b63a-e5a7df8095df
+spyspark
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro22
+2025-07-07 23:24 - DEBUG - Command to send: c
+o22
+getAbsolutePath
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys/tmp/spark-fa186eb7-cadb-4dcf-b63a-e5a7df8095df/pyspark-57365db2-5a60-42d1-8ddf-98e51ef619ec
+2025-07-07 23:24 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile
+sfalse
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysfalse
+2025-07-07 23:24 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile.memory
+sfalse
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysfalse
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession$
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession$
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession$
+MODULE$
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro23
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getDefaultSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getDefaultSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro24
+2025-07-07 23:24 - DEBUG - Command to send: c
+o24
+isDefined
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybfalse
+2025-07-07 23:24 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro25
+2025-07-07 23:24 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yao26
+2025-07-07 23:24 - DEBUG - Command to send: c
+o26
+put
+sspark.app.name
+sTransform_News_API
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yn
+2025-07-07 23:24 - DEBUG - Command to send: i
+org.apache.spark.sql.classic.SparkSession
+ro25
+ro26
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro27
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+setDefaultSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+setDefaultSession
+ro27
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+setActiveSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+setActiveSession
+ro27
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - INFO - Starting data cleaning!!!
+2025-07-07 23:24 - INFO - Cleaning Data
+2025-07-07 23:24 - DEBUG - Command to send: c
+o27
+read
+e
+
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o26
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o23
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Answer received: !yro28
+2025-07-07 23:24 - DEBUG - Command to send: c
+o28
+format
+sparquet
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro29
+2025-07-07 23:24 - DEBUG - Command to send: c
+o29
+load
+sinclude/data_2/data.parquet
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro30
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ylo31
+2025-07-07 23:24 - DEBUG - Command to send: c
+o31
+add
+s__index_level_0__
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro31
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro32
+2025-07-07 23:24 - DEBUG - Command to send: c
+o30
+drop
+ro32
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro33
+2025-07-07 23:24 - DEBUG - Command to send: c
+o33
+na
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro34
+2025-07-07 23:24 - DEBUG - Command to send: c
+o34
+fill
+sunknown
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro35
+2025-07-07 23:24 - DEBUG - Command to send: c
+o35
+dropDuplicates
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro36
+2025-07-07 23:24 - INFO - Converting string to datetime cleaning!!!
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro37
+2025-07-07 23:24 - DEBUG - Command to send: c
+o37
+isDefined
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: c
+o27
+conf
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro38
+2025-07-07 23:24 - DEBUG - Command to send: c
+o38
+get
+sspark.python.sql.dataFrameDebugging.enabled
+strue
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ystrue
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro39
+2025-07-07 23:24 - DEBUG - Command to send: c
+o39
+isDefined
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+2025-07-07 23:24 - DEBUG - Command to send: c
+o38
+get
+sspark.sql.stackTracesInDataFrameContext
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ys1
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+set
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+set
+scol
+s/mnt/mydrive/News_API_ETL/dags/Transform.py:99
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.functions
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+spublishedAt
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro40
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+clear
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+clear
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile
+sfalse
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysfalse
+2025-07-07 23:24 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile.memory
+sfalse
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ysfalse
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro41
+2025-07-07 23:24 - DEBUG - Command to send: c
+o41
+isDefined
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+ro15
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yL1048576
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+SimplePythonFunction
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.SimplePythonFunction
+2025-07-07 23:24 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yao42
+2025-07-07 23:24 - DEBUG - Command to send: c
+o42
+put
+sPYTHONHASHSEED
+s0
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yn
+2025-07-07 23:24 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ylo43
+2025-07-07 23:24 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ylo44
+2025-07-07 23:24 - DEBUG - Command to send: i
+org.apache.spark.api.python.SimplePythonFunction
+jgAWVXAMAAAAAAACMH3B5c3BhcmsuY2xvdWRwaWNrbGUuY2xvdWRwaWNrbGWUjA5fbWFrZV9mdW5jdGlvbpSTlChoAIwNX2J1aWx0aW5fdHlwZZSTlIwIQ29kZVR5cGWUhZRSlChLAUsASwBLAUsFSxNDLJUAWwAAAAAAAAAAAFICAAAAAAAAAAAAAAAAAAAAAAAAIgBVAFMBUwI5AiQAlE6IjAN1dGOUhZSHlIwCcGSUjAt0b19kYXRldGltZZSGlIwLcHVibGlzaGVkQXSUhZSMKy9tbnQvbXlkcml2ZS9OZXdzX0FQSV9FVEwvZGFncy9UcmFuc2Zvcm0ucHmUjBFzdHJ0b2RhdGV0aW1lX2Z1bpSMOGNvbnZlcnRpbmdfc3RyaW5nX3RvX2RhdGV0aW1lLjxsb2NhbHM+LnN0cnRvZGF0ZXRpbWVfZnVulEtcQxOAANwPEY9+in6Ya6h00Q800Ag0lEMAlCkpdJRSlH2UKIwLX19wYWNrYWdlX1+UjACUjAhfX25hbWVfX5SMCVRyYW5zZm9ybZSMCF9fZmlsZV9flIwrL21udC9teWRyaXZlL05ld3NfQVBJX0VUTC9kYWdzL1RyYW5zZm9ybS5weZR1Tk5OdJRSlGgAjBJfZnVuY3Rpb25fc2V0c3RhdGWUk5RoIH2UfZQoaBuMEXN0cnRvZGF0ZXRpbWVfZnVulIwMX19xdWFsbmFtZV9flIw4Y29udmVydGluZ19zdHJpbmdfdG9fZGF0ZXRpbWUuPGxvY2Fscz4uc3RydG9kYXRldGltZV9mdW6UjA9fX2Fubm90YXRpb25zX1+UfZQoaA+MEnBhbmRhcy5jb3JlLnNlcmllc5SMBlNlcmllc5STlIwGcmV0dXJulGgsdYwOX19rd2RlZmF1bHRzX1+UTowMX19kZWZhdWx0c19flE6MCl9fbW9kdWxlX1+UaByMB19fZG9jX1+UTowLX19jbG9zdXJlX1+UTowXX2Nsb3VkcGlja2xlX3N1Ym1vZHVsZXOUXZSMC19fZ2xvYmFsc19flH2UaAxoAIwJc3ViaW1wb3J0lJOUjAZwYW5kYXOUhZRSlHN1hpSGUjCMEXB5c3Bhcmsuc3FsLnR5cGVzlIwNVGltZXN0YW1wVHlwZZSTlCmBlIaULg==
+ro42
+ro43
+spython3
+s3.13
+ro44
+ro18
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro45
+2025-07-07 23:24 - DEBUG - Command to send: c
+o27
+parseDataType
+s"timestamp"
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro46
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.execution.python.UserDefinedPythonFunction
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.sql.execution.python.UserDefinedPythonFunction
+2025-07-07 23:24 - DEBUG - Command to send: i
+org.apache.spark.sql.execution.python.UserDefinedPythonFunction
+sstrtodatetime_fun
+ro45
+ro46
+i200
+bTrue
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro47
+2025-07-07 23:24 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-07 23:24 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ym
+2025-07-07 23:24 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ylo48
+2025-07-07 23:24 - DEBUG - Command to send: c
+o48
+add
+ro40
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !ybtrue
+2025-07-07 23:24 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro48
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro49
+2025-07-07 23:24 - DEBUG - Command to send: c
+o47
+apply
+ro49
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro50
+2025-07-07 23:24 - DEBUG - Command to send: c
+o36
+withColumn
+spublishedAt
+ro50
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro51
+2025-07-07 23:24 - INFO - Trying to save dataframe back to a parquet file.
+2025-07-07 23:24 - DEBUG - Command to send: c
+o51
+write
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro52
+2025-07-07 23:24 - DEBUG - Command to send: c
+o52
+format
+sparquet
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro53
+2025-07-07 23:24 - DEBUG - Command to send: c
+o53
+mode
+soverwrite
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro54
+2025-07-07 23:24 - DEBUG - Command to send: c
+o54
+option
+scompression
+ssnappy
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yro55
+2025-07-07 23:24 - DEBUG - Command to send: c
+o55
+save
+sinclude/data_2/data_transformed.parquet
+e
+
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o0
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o6
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o7
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o8
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o9
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o10
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o11
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o12
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o13
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o14
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o16
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o19
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o20
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o21
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o22
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o24
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o25
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o28
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o31
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o32
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o33
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o34
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o35
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o37
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o39
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o29
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o30
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o42
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o43
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o44
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o48
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - INFO - Transformation completed
+2025-07-07 23:24 - INFO - Trying to establish connection to mongodb
+2025-07-07 23:24 - DEBUG - {"message": "Starting topology monitoring", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}}
+2025-07-07 23:24 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "previousDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>"}
+2025-07-07 23:24 - DEBUG - {"message": "Starting server monitoring", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Starting server monitoring", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Starting server monitoring", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection pool created", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection pool created", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection pool created", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Server selection started", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}}
+2025-07-07 23:24 - DEBUG - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "remainingTimeMS": 29999}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverConnectionId": 14469, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false, "durationMS": 16.48366100016574, "reply": "{\"helloOk\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"686baa1722007e7d5c5942f3\"}, \"counter\": 9}, \"hosts\": [\"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\"], \"setName\": \"atlas-z9o5l9-shard-0\", \"setVersion\": 1, \"secondary\": true, \"primary\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"tags\": {\"region\": \"AP_SOUTH_1\", \"provider\": \"AWS\", \"workloadType\": \"OPERATIONAL\", \"diskState\": \"READY\", \"nodeType\": \"ELECTABLE\", \"availabilityZone\": \"aps1-az1\"}, \"me\": \"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"lastWrite\": {\"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 15}}, \"t\": 2}, \"lastWriteDate\": {\"$date\": \"2025-07-07T17:54:22Z\"}, \"majorityOpTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 15}}, \"t\": 2}, \"majorityWriteDate\": {\"$date\": \"2025-07-07T17:54:22Z\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime..."}
+2025-07-07 23:24 - DEBUG - {"message": "Connection pool ready", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "previousDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>"}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverConnectionId": 14469, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": true}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverConnectionId": 18073, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false, "durationMS": 22.80263200009358, "reply": "{\"helloOk\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"686baa178619a773f30c94b9\"}, \"counter\": 7}, \"hosts\": [\"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\"], \"setName\": \"atlas-z9o5l9-shard-0\", \"setVersion\": 1, \"ismaster\": true, \"primary\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"tags\": {\"nodeType\": \"ELECTABLE\", \"diskState\": \"READY\", \"workloadType\": \"OPERATIONAL\", \"provider\": \"AWS\", \"region\": \"AP_SOUTH_1\", \"availabilityZone\": \"aps1-az3\"}, \"me\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"electionId\": {\"$oid\": \"7fffffff0000000000000002\"}, \"lastWrite\": {\"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 15}}, \"t\": 2}, \"lastWriteDate\": {\"$date\": \"2025-07-07T17:54:22Z\"}, \"majorityOpTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 15}}, \"t\": 2}, \"majorityWriteDate\": {\"$date\": \"2025-07-07T17:54:22Z\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\"..."}
+2025-07-07 23:24 - DEBUG - {"message": "Connection pool ready", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "previousDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.02280263200009358>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>"}
+2025-07-07 23:24 - DEBUG - {"message": "Server selection succeeded", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.02280263200009358>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverConnectionId": 18073, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": true}
+2025-07-07 23:24 - DEBUG - {"message": "Connection checkout started", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection created", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverConnectionId": 14415, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false, "durationMS": 21.77250400018238, "reply": "{\"helloOk\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"686baa1be921ff0e1690e81a\"}, \"counter\": 5}, \"hosts\": [\"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\"], \"setName\": \"atlas-z9o5l9-shard-0\", \"setVersion\": 1, \"secondary\": true, \"primary\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"tags\": {\"workloadType\": \"OPERATIONAL\", \"availabilityZone\": \"aps1-az2\", \"nodeType\": \"ELECTABLE\", \"diskState\": \"READY\", \"region\": \"AP_SOUTH_1\", \"provider\": \"AWS\"}, \"me\": \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\", \"lastWrite\": {\"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 16}}, \"t\": 2}, \"lastWriteDate\": {\"$date\": \"2025-07-07T17:54:22Z\"}, \"majorityOpTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 16}}, \"t\": 2}, \"majorityWriteDate\": {\"$date\": \"2025-07-07T17:54:22Z\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime..."}
+2025-07-07 23:24 - DEBUG - {"message": "Connection pool ready", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "previousDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.02280263200009358>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.02280263200009358>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.02177250400018238>]>"}
+2025-07-07 23:24 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "driverConnectionId": 1, "serverConnectionId": 14415, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": true}
+2025-07-07 23:24 - DEBUG - {"message": "Connection ready", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.06152031999999963}
+2025-07-07 23:24 - DEBUG - {"message": "Connection checked out", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.13732865100018898}
+2025-07-07 23:24 - DEBUG - {"message": "Command started", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "command": "{\"listDatabases\": 1, \"nameOnly\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"OuLRVknpSLO7aD5NSHkpkA==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 16}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"2efmDeJmY8UGxyhxw4fo/P+Hayo=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"$db\": \"admin\"}", "commandName": "listDatabases", "databaseName": "admin", "requestId": 1350490027, "operationId": 1350490027, "driverConnectionId": 1, "serverConnectionId": 18067, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Command succeeded", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "durationMS": 18.479, "reply": "{\"databases\": [{\"name\": \"admin\"}, {\"name\": \"local\"}], \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 17}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"2efmDeJmY8UGxyhxw4fo/P+Hayo=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"operationTime\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 17}}}", "commandName": "listDatabases", "databaseName": "admin", "requestId": 1350490027, "operationId": 1350490027, "driverConnectionId": 1, "serverConnectionId": 18067, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection checked in", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1}
+2025-07-07 23:24 - INFO - Connection Established successfully to mongodb
+2025-07-07 23:24 - INFO - Creating db and collections
+2025-07-07 23:24 - INFO - Creating db Successful!!!
+2025-07-07 23:24 - DEBUG - {"message": "Server selection started", "selector": "<function writable_server_selector at 0x758bec2a7ec0>", "operation": "insert", "operationId": -825326949, "topologyDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.02280263200009358>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.02177250400018238>]>", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}}
+2025-07-07 23:24 - DEBUG - {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x758bec2a7ec0>", "operation": "insert", "operationId": -825326949, "topologyDescription": "<TopologyDescription id: 686c09ce723ba8fbe5b9fc9b, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01648366100016574>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.02280263200009358>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.02177250400018238>]>", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection checkout started", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection checked out", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0001901390000966785}
+2025-07-07 23:24 - DEBUG - {"message": "Command started", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "command": "{\"insert\": \"2025_07_07\", \"ordered\": true, \"writeConcern\": {\"w\": \"majority\"}, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"OuLRVknpSLO7aD5NSHkpkA==\", \"subType\": \"04\"}}}, \"txnNumber\": 1, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 17}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"2efmDeJmY8UGxyhxw4fo/P+Hayo=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"$db\": \"Daily_tech_News_3\", \"documents\": [{\"author\": \"Elyse Betters Picaro\", \"title\": \"Your Roku has secret menus and settings - here's how to access them - ZDNet\", \"description\": \"Tapping a secret button combo on your Roku remote unlocks a hidden menu packed with features most users don't know about.\", \"url\": \"https://www.zdnet.com/home-and-office/home-entertainment/your-roku-has-secret-menus-and-settings-heres-how-to-access-them/\", \"urlToImage\": \"https://www.zdnet.com/a/img/resize/0fd2d96b0351bbd31abb288659e1073199d68bac/2024/10/25/66abb68f-576f-4b51-afbe-72cd526cfa3d/3.jpg?auto=webp&fit=crop&height=675&widt...", "commandName": "insert", "databaseName": "Daily_tech_News_3", "requestId": 783368690, "operationId": 783368690, "driverConnectionId": 1, "serverConnectionId": 18067, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o40
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o41
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o45
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o46
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o47
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o49
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o50
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o51
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o52
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o53
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o54
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - Command to send: m
+d
+o55
+e
+
+2025-07-07 23:24 - DEBUG - Answer received: !yv
+2025-07-07 23:24 - DEBUG - {"message": "Command succeeded", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "durationMS": 44.744, "reply": "{\"n\": 8, \"electionId\": {\"$oid\": \"7fffffff0000000000000002\"}, \"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 22}}, \"t\": 2}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 22}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"2efmDeJmY8UGxyhxw4fo/P+Hayo=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"operationTime\": {\"$timestamp\": {\"t\": 1751910862, \"i\": 22}}}", "commandName": "insert", "databaseName": "Daily_tech_News_3", "requestId": 783368690, "operationId": 783368690, "driverConnectionId": 1, "serverConnectionId": 18067, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-07 23:24 - DEBUG - {"message": "Connection checked in", "clientId": {"$oid": "686c09ce723ba8fbe5b9fc9b"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1}
+2025-07-07 23:24 - INFO - Data Loading successfull
+2025-07-07 23:24 - INFO - Closing down clientserver connection
+2025-07-08 00:05:43 - INFO - Starting Pipeline
+2025-07-08 00:06:17 - INFO - Starting Pipeline
+2025-07-08 00:06 - INFO - Extracting data
+2025-07-08 00:06 - DEBUG - Starting new HTTPS connection (1): newsapi.org:443
+2025-07-08 00:06 - DEBUG - https://newsapi.org:443 "GET /v2/top-headlines?category=technology&from=2025-07-08&apiKey=690063028bf94994b458f3b9aa2453b5&pageSize=10&page=1 HTTP/1.1" 200 None
+2025-07-08 00:06 - INFO - Extracted data successfully!!!
+2025-07-08 00:06 - INFO - Starting transforming data
+2025-07-08 00:06 - DEBUG - GatewayClient.address is deprecated and will be removed in version 1.0. Use GatewayParameters instead.
+2025-07-08 00:06 - DEBUG - Command to send: A
+2491cda86a6ef75b3823f43fe7452db06d7bf3209a6e2fa95b64571e58c21c5c
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.Encoders
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.OnSuccessCall
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.functions
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.classic.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+SparkConf
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.SparkConf
+2025-07-08 00:06 - DEBUG - Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro0
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+set
+sspark.app.name
+sTransform_News_API
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro1
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybfalse
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro2
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybfalse
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro3
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.sql.artifact.isolation.enabled
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybfalse
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+set
+sspark.sql.artifact.isolation.enabled
+sfalse
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro4
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+get
+sspark.master
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yslocal[*]
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+get
+sspark.app.name
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysTransform_News_API
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+contains
+sspark.home
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybfalse
+2025-07-08 00:06 - DEBUG - Command to send: c
+o0
+getAll
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yto5
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i0
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro6
+2025-07-08 00:06 - DEBUG - Command to send: c
+o6
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.rdd.compress
+2025-07-08 00:06 - DEBUG - Command to send: c
+o6
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysTrue
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro7
+2025-07-08 00:06 - DEBUG - Command to send: c
+o7
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.app.name
+2025-07-08 00:06 - DEBUG - Command to send: c
+o7
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysTransform_News_API
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro8
+2025-07-08 00:06 - DEBUG - Command to send: c
+o8
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.submit.pyFiles
+2025-07-08 00:06 - DEBUG - Command to send: c
+o8
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i3
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro9
+2025-07-08 00:06 - DEBUG - Command to send: c
+o9
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.sql.artifact.isolation.enabled
+2025-07-08 00:06 - DEBUG - Command to send: c
+o9
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysfalse
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i4
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro10
+2025-07-08 00:06 - DEBUG - Command to send: c
+o10
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.submit.deployMode
+2025-07-08 00:06 - DEBUG - Command to send: c
+o10
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysclient
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro11
+2025-07-08 00:06 - DEBUG - Command to send: c
+o11
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.serializer.objectStreamReset
+2025-07-08 00:06 - DEBUG - Command to send: c
+o11
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys100
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i6
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro12
+2025-07-08 00:06 - DEBUG - Command to send: c
+o12
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.master
+2025-07-08 00:06 - DEBUG - Command to send: c
+o12
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yslocal[*]
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i7
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro13
+2025-07-08 00:06 - DEBUG - Command to send: c
+o13
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.app.submitTime
+2025-07-08 00:06 - DEBUG - Command to send: c
+o13
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys1751913381753
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: a
+g
+o5
+i8
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro14
+2025-07-08 00:06 - DEBUG - Command to send: c
+o14
+_1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysspark.ui.showConsoleProgress
+2025-07-08 00:06 - DEBUG - Command to send: c
+o14
+_2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ystrue
+2025-07-08 00:06 - DEBUG - Command to send: a
+e
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi9
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+2025-07-08 00:06 - DEBUG - Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+2025-07-08 00:06 - DEBUG - Command to send: A
+2491cda86a6ef75b3823f43fe7452db06d7bf3209a6e2fa95b64571e58c21c5c
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o1
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o2
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o3
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o4
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o5
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Answer received: !yro15
+2025-07-08 00:06 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro16
+2025-07-08 00:06 - DEBUG - Command to send: c
+o16
+conf
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro17
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+2025-07-08 00:06 - DEBUG - Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i48651
+s2491cda86a6ef75b3823f43fe7452db06d7bf3209a6e2fa95b64571e58c21c5c
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro18
+2025-07-08 00:06 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro19
+2025-07-08 00:06 - DEBUG - Command to send: c
+o19
+register
+ro18
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro15
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybfalse
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro15
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yL15
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro15
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yi65536
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.SparkFiles
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys/tmp/spark-ca250204-e9bd-4d79-b88e-fcb677f05a8c/userFiles-c97b356d-df69-4a6c-a722-819c07b6555b
+2025-07-08 00:06 - DEBUG - Command to send: c
+o17
+get
+sspark.submit.pyFiles
+s
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro20
+2025-07-08 00:06 - DEBUG - Command to send: c
+o20
+conf
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro21
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro21
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys/tmp/spark-ca250204-e9bd-4d79-b88e-fcb677f05a8c
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+s/tmp/spark-ca250204-e9bd-4d79-b88e-fcb677f05a8c
+spyspark
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro22
+2025-07-08 00:06 - DEBUG - Command to send: c
+o22
+getAbsolutePath
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys/tmp/spark-ca250204-e9bd-4d79-b88e-fcb677f05a8c/pyspark-31a72a33-efe6-4844-b035-aee414a3aed4
+2025-07-08 00:06 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile
+sfalse
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysfalse
+2025-07-08 00:06 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile.memory
+sfalse
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysfalse
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession$
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession$
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession$
+MODULE$
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro23
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getDefaultSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getDefaultSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro24
+2025-07-08 00:06 - DEBUG - Command to send: c
+o24
+isDefined
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybfalse
+2025-07-08 00:06 - DEBUG - Command to send: c
+o15
+sc
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro25
+2025-07-08 00:06 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yao26
+2025-07-08 00:06 - DEBUG - Command to send: c
+o26
+put
+sspark.app.name
+sTransform_News_API
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yn
+2025-07-08 00:06 - DEBUG - Command to send: i
+org.apache.spark.sql.classic.SparkSession
+ro25
+ro26
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro27
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+setDefaultSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+setDefaultSession
+ro27
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+setActiveSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+setActiveSession
+ro27
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - INFO - Starting data cleaning!!!
+2025-07-08 00:06 - INFO - Cleaning Data
+2025-07-08 00:06 - DEBUG - Command to send: c
+o27
+read
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro28
+2025-07-08 00:06 - DEBUG - Command to send: c
+o28
+format
+sparquet
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro29
+2025-07-08 00:06 - DEBUG - Command to send: c
+o29
+load
+sdata/data.parquet
+e
+
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o26
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o23
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Answer received: !yro30
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ylo31
+2025-07-08 00:06 - DEBUG - Command to send: c
+o31
+add
+s__index_level_0__
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro31
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro32
+2025-07-08 00:06 - DEBUG - Command to send: c
+o30
+drop
+ro32
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro33
+2025-07-08 00:06 - DEBUG - Command to send: c
+o33
+na
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro34
+2025-07-08 00:06 - DEBUG - Command to send: c
+o34
+fill
+sunknown
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro35
+2025-07-08 00:06 - DEBUG - Command to send: c
+o35
+dropDuplicates
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro36
+2025-07-08 00:06 - INFO - Converting string to datetime cleaning!!!
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro37
+2025-07-08 00:06 - DEBUG - Command to send: c
+o37
+isDefined
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: c
+o27
+conf
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro38
+2025-07-08 00:06 - DEBUG - Command to send: c
+o38
+get
+sspark.python.sql.dataFrameDebugging.enabled
+strue
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ystrue
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro39
+2025-07-08 00:06 - DEBUG - Command to send: c
+o39
+isDefined
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+2025-07-08 00:06 - DEBUG - Command to send: c
+o38
+get
+sspark.sql.stackTracesInDataFrameContext
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ys1
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+set
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o0
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o6
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o7
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o8
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o9
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o10
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o11
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o12
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o13
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o14
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o16
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o19
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o20
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o21
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o22
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o24
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o25
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o28
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o31
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o32
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o33
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o34
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o35
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o37
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o39
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o29
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o30
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+set
+scol
+s/mnt/mydrive/News_API_ETL/Transform.py:99
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.functions
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.functions
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.functions
+col
+spublishedAt
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro40
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+clear
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.catalyst.trees.PySparkCurrentOrigin
+clear
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile
+sfalse
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysfalse
+2025-07-08 00:06 - DEBUG - Command to send: c
+o17
+get
+sspark.python.profile.memory
+sfalse
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ysfalse
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.classic.SparkSession
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.classic.SparkSession
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.sql.classic.SparkSession
+getActiveSession
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro41
+2025-07-08 00:06 - DEBUG - Command to send: c
+o41
+isDefined
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+ro15
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yL1048576
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+SimplePythonFunction
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.SimplePythonFunction
+2025-07-08 00:06 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yao42
+2025-07-08 00:06 - DEBUG - Command to send: c
+o42
+put
+sPYTHONHASHSEED
+s0
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yn
+2025-07-08 00:06 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ylo43
+2025-07-08 00:06 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ylo44
+2025-07-08 00:06 - DEBUG - Command to send: i
+org.apache.spark.api.python.SimplePythonFunction
+jgAWVUgMAAAAAAACMH3B5c3BhcmsuY2xvdWRwaWNrbGUuY2xvdWRwaWNrbGWUjA5fbWFrZV9mdW5jdGlvbpSTlChoAIwNX2J1aWx0aW5fdHlwZZSTlIwIQ29kZVR5cGWUhZRSlChLAUsASwBLAUsFSxNDLJUAWwAAAAAAAAAAAFICAAAAAAAAAAAAAAAAAAAAAAAAIgBVAFMBUwI5AiQAlE6IjAN1dGOUhZSHlIwCcGSUjAt0b19kYXRldGltZZSGlIwLcHVibGlzaGVkQXSUhZSMJi9tbnQvbXlkcml2ZS9OZXdzX0FQSV9FVEwvVHJhbnNmb3JtLnB5lIwRc3RydG9kYXRldGltZV9mdW6UjDhjb252ZXJ0aW5nX3N0cmluZ190b19kYXRldGltZS48bG9jYWxzPi5zdHJ0b2RhdGV0aW1lX2Z1bpRLXEMTgADcDxGPfop+mGuodNEPNNAINJRDAJQpKXSUUpR9lCiMC19fcGFja2FnZV9flIwAlIwIX19uYW1lX1+UjAlUcmFuc2Zvcm2UjAhfX2ZpbGVfX5SMJi9tbnQvbXlkcml2ZS9OZXdzX0FQSV9FVEwvVHJhbnNmb3JtLnB5lHVOTk50lFKUaACMEl9mdW5jdGlvbl9zZXRzdGF0ZZSTlGggfZR9lChoG4wRc3RydG9kYXRldGltZV9mdW6UjAxfX3F1YWxuYW1lX1+UjDhjb252ZXJ0aW5nX3N0cmluZ190b19kYXRldGltZS48bG9jYWxzPi5zdHJ0b2RhdGV0aW1lX2Z1bpSMD19fYW5ub3RhdGlvbnNfX5R9lChoD4wScGFuZGFzLmNvcmUuc2VyaWVzlIwGU2VyaWVzlJOUjAZyZXR1cm6UaCx1jA5fX2t3ZGVmYXVsdHNfX5ROjAxfX2RlZmF1bHRzX1+UTowKX19tb2R1bGVfX5RoHIwHX19kb2NfX5ROjAtfX2Nsb3N1cmVfX5ROjBdfY2xvdWRwaWNrbGVfc3VibW9kdWxlc5RdlIwLX19nbG9iYWxzX1+UfZRoDGgAjAlzdWJpbXBvcnSUk5SMBnBhbmRhc5SFlFKUc3WGlIZSMIwRcHlzcGFyay5zcWwudHlwZXOUjA1UaW1lc3RhbXBUeXBllJOUKYGUhpQu
+ro42
+ro43
+spython3
+s3.13
+ro44
+ro18
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro45
+2025-07-08 00:06 - DEBUG - Command to send: c
+o27
+parseDataType
+s"timestamp"
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro46
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.execution.python.UserDefinedPythonFunction
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.sql.execution.python.UserDefinedPythonFunction
+2025-07-08 00:06 - DEBUG - Command to send: i
+org.apache.spark.sql.execution.python.UserDefinedPythonFunction
+sstrtodatetime_fun
+ro45
+ro46
+i200
+bTrue
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro47
+2025-07-08 00:06 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2025-07-08 00:06 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ym
+2025-07-08 00:06 - DEBUG - Command to send: i
+java.util.ArrayList
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ylo48
+2025-07-08 00:06 - DEBUG - Command to send: c
+o48
+add
+ro40
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !ybtrue
+2025-07-08 00:06 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro48
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro49
+2025-07-08 00:06 - DEBUG - Command to send: c
+o47
+apply
+ro49
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro50
+2025-07-08 00:06 - DEBUG - Command to send: c
+o36
+withColumn
+spublishedAt
+ro50
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro51
+2025-07-08 00:06 - INFO - Trying to save dataframe back to a parquet file.
+2025-07-08 00:06 - DEBUG - Command to send: c
+o51
+write
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro52
+2025-07-08 00:06 - DEBUG - Command to send: c
+o52
+format
+sparquet
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro53
+2025-07-08 00:06 - DEBUG - Command to send: c
+o53
+mode
+soverwrite
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro54
+2025-07-08 00:06 - DEBUG - Command to send: c
+o54
+option
+scompression
+ssnappy
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yro55
+2025-07-08 00:06 - DEBUG - Command to send: c
+o55
+save
+sdata/data_transformed.parquet
+e
+
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o42
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o43
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o44
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o48
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - INFO - Transformation completed
+2025-07-08 00:06 - INFO - Trying to establish connection to mongodb
+2025-07-08 00:06 - DEBUG - {"message": "Starting topology monitoring", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}}
+2025-07-08 00:06 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "previousDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>"}
+2025-07-08 00:06 - DEBUG - {"message": "Starting server monitoring", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Starting server monitoring", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Starting server monitoring", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection pool created", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection pool created", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection pool created", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Server selection started", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}}
+2025-07-08 00:06 - DEBUG - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "remainingTimeMS": 29999}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverConnectionId": 16734, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false, "durationMS": 16.55425499939156, "reply": "{\"helloOk\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"686baa1722007e7d5c5942f3\"}, \"counter\": 9}, \"hosts\": [\"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\"], \"setName\": \"atlas-z9o5l9-shard-0\", \"setVersion\": 1, \"secondary\": true, \"primary\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"tags\": {\"workloadType\": \"OPERATIONAL\", \"diskState\": \"READY\", \"region\": \"AP_SOUTH_1\", \"provider\": \"AWS\", \"availabilityZone\": \"aps1-az1\", \"nodeType\": \"ELECTABLE\"}, \"me\": \"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"lastWrite\": {\"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751913392, \"i\": 33}}, \"t\": 2}, \"lastWriteDate\": {\"$date\": \"2025-07-07T18:36:32Z\"}, \"majorityOpTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751913392, \"i\": 33}}, \"t\": 2}, \"majorityWriteDate\": {\"$date\": \"2025-07-07T18:36:32Z\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime..."}
+2025-07-08 00:06 - DEBUG - {"message": "Connection pool ready", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "previousDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>"}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverConnectionId": 16734, "serverHost": "ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": true}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverConnectionId": 20718, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false, "durationMS": 15.474490000087826, "reply": "{\"helloOk\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"686baa178619a773f30c94b9\"}, \"counter\": 7}, \"hosts\": [\"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\"], \"setName\": \"atlas-z9o5l9-shard-0\", \"setVersion\": 1, \"ismaster\": true, \"primary\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"tags\": {\"region\": \"AP_SOUTH_1\", \"workloadType\": \"OPERATIONAL\", \"availabilityZone\": \"aps1-az3\", \"diskState\": \"READY\", \"nodeType\": \"ELECTABLE\", \"provider\": \"AWS\"}, \"me\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"electionId\": {\"$oid\": \"7fffffff0000000000000002\"}, \"lastWrite\": {\"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751913392, \"i\": 36}}, \"t\": 2}, \"lastWriteDate\": {\"$date\": \"2025-07-07T18:36:32Z\"}, \"majorityOpTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751913392, \"i\": 33}}, \"t\": 2}, \"majorityWriteDate\": {\"$date\": \"2025-07-07T18:36:32Z\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\"..."}
+2025-07-08 00:06 - DEBUG - {"message": "Connection pool ready", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "previousDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015474490000087826>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>"}
+2025-07-08 00:06 - DEBUG - {"message": "Server selection succeeded", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015474490000087826>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverConnectionId": 20718, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": true}
+2025-07-08 00:06 - DEBUG - {"message": "Connection checkout started", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection created", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverConnectionId": 16677, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": false, "durationMS": 19.83888599988859, "reply": "{\"helloOk\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"686baa1be921ff0e1690e81a\"}, \"counter\": 5}, \"hosts\": [\"ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\"], \"setName\": \"atlas-z9o5l9-shard-0\", \"setVersion\": 1, \"secondary\": true, \"primary\": \"ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net:27017\", \"tags\": {\"region\": \"AP_SOUTH_1\", \"diskState\": \"READY\", \"availabilityZone\": \"aps1-az2\", \"provider\": \"AWS\", \"workloadType\": \"OPERATIONAL\", \"nodeType\": \"ELECTABLE\"}, \"me\": \"ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net:27017\", \"lastWrite\": {\"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751913392, \"i\": 44}}, \"t\": 2}, \"lastWriteDate\": {\"$date\": \"2025-07-07T18:36:32Z\"}, \"majorityOpTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751913392, \"i\": 44}}, \"t\": 2}, \"majorityWriteDate\": {\"$date\": \"2025-07-07T18:36:32Z\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime..."}
+2025-07-08 00:06 - DEBUG - {"message": "Connection pool ready", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Topology description changed", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "previousDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015474490000087826>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015474490000087826>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01983888599988859>]>"}
+2025-07-08 00:06 - DEBUG - {"message": "Server heartbeat started", "topologyId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "driverConnectionId": 1, "serverConnectionId": 16677, "serverHost": "ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net", "serverPort": 27017, "awaited": true}
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o40
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o41
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o45
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o46
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o47
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o49
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o50
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o51
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o52
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o53
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o54
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - Command to send: m
+d
+o55
+e
+
+2025-07-08 00:06 - DEBUG - Answer received: !yv
+2025-07-08 00:06 - DEBUG - {"message": "Connection ready", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0683065829998668}
+2025-07-08 00:06 - DEBUG - {"message": "Connection checked out", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.4625104699998701}
+2025-07-08 00:06 - DEBUG - {"message": "Command started", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "command": "{\"listDatabases\": 1, \"nameOnly\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"ZmlEhFTpQ+uZJ+CcIkv4hw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751913393, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"YgZoeGlq3fXdpEod7pFjbB7cVuA=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"$db\": \"admin\"}", "commandName": "listDatabases", "databaseName": "admin", "requestId": 783368690, "operationId": 783368690, "driverConnectionId": 1, "serverConnectionId": 20720, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Command succeeded", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "durationMS": 30.886, "reply": "{\"databases\": [{\"name\": \"Daily_tech_News_3\"}, {\"name\": \"admin\"}, {\"name\": \"local\"}], \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751913393, \"i\": 9}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"YgZoeGlq3fXdpEod7pFjbB7cVuA=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"operationTime\": {\"$timestamp\": {\"t\": 1751913393, \"i\": 9}}}", "commandName": "listDatabases", "databaseName": "admin", "requestId": 783368690, "operationId": 783368690, "driverConnectionId": 1, "serverConnectionId": 20720, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection checked in", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1}
+2025-07-08 00:06 - INFO - Connection Established successfully to mongodb
+2025-07-08 00:06 - INFO - Creating db and collections
+2025-07-08 00:06 - INFO - Creating db Successful!!!
+2025-07-08 00:06 - DEBUG - {"message": "Server selection started", "selector": "<function writable_server_selector at 0x7859a4473ec0>", "operation": "insert", "operationId": -1710491044, "topologyDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015474490000087826>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01983888599988859>]>", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}}
+2025-07-08 00:06 - DEBUG - {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x7859a4473ec0>", "operation": "insert", "operationId": -1710491044, "topologyDescription": "<TopologyDescription id: 686c13b0fd40c6e0aa5579d5, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-mrphqnn-shard-00-00.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01655425499939156>, <ServerDescription ('ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015474490000087826>, <ServerDescription ('ac-mrphqnn-shard-00-02.b1hx1v7.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.01983888599988859>]>", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection checkout started", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection checked out", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.00031547900016448693}
+2025-07-08 00:06 - DEBUG - {"message": "Command started", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "command": "{\"insert\": \"2025_07_08\", \"ordered\": true, \"writeConcern\": {\"w\": \"majority\"}, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"ZmlEhFTpQ+uZJ+CcIkv4hw==\", \"subType\": \"04\"}}}, \"txnNumber\": 1, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751913393, \"i\": 9}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"YgZoeGlq3fXdpEod7pFjbB7cVuA=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"$db\": \"Daily_tech_News_4\", \"documents\": [{\"author\": \"Elyse Betters Picaro\", \"title\": \"Your Roku has secret menus and settings - here's how to access them - ZDNet\", \"description\": \"Tapping a secret button combo on your Roku remote unlocks a hidden menu packed with features most users don't know about.\", \"url\": \"https://www.zdnet.com/home-and-office/home-entertainment/your-roku-has-secret-menus-and-settings-heres-how-to-access-them/\", \"urlToImage\": \"https://www.zdnet.com/a/img/resize/0fd2d96b0351bbd31abb288659e1073199d68bac/2024/10/25/66abb68f-576f-4b51-afbe-72cd526cfa3d/3.jpg?auto=webp&fit=crop&height=675&width...", "commandName": "insert", "databaseName": "Daily_tech_News_4", "requestId": 1102520059, "operationId": 1102520059, "driverConnectionId": 1, "serverConnectionId": 20720, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Command succeeded", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "durationMS": 152.709, "reply": "{\"n\": 8, \"electionId\": {\"$oid\": \"7fffffff0000000000000002\"}, \"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1751913393, \"i\": 20}}, \"t\": 2}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1751913393, \"i\": 20}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"YgZoeGlq3fXdpEod7pFjbB7cVuA=\", \"subType\": \"00\"}}, \"keyId\": 7524294669753122822}}, \"operationTime\": {\"$timestamp\": {\"t\": 1751913393, \"i\": 20}}}", "commandName": "insert", "databaseName": "Daily_tech_News_4", "requestId": 1102520059, "operationId": 1102520059, "driverConnectionId": 1, "serverConnectionId": 20720, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017}
+2025-07-08 00:06 - DEBUG - {"message": "Connection checked in", "clientId": {"$oid": "686c13b0fd40c6e0aa5579d5"}, "serverHost": "ac-mrphqnn-shard-00-01.b1hx1v7.mongodb.net", "serverPort": 27017, "driverConnectionId": 1}
+2025-07-08 00:06 - INFO - Data Loading successfull
+2025-07-08 00:06 - INFO - Closing down clientserver connection
+2025-07-08 00:06:17 - INFO - Pipeline Executed
